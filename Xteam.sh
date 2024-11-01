@@ -17,12 +17,12 @@ apt-get install python
 apt-get install python2
 clear
 echo -e "$Green Created By \e[1;34m"
-       figlet X TEAM | lolcat
+       figlet Cyb3r Team | lolcat
 sleep 2.0
 
     echo " "
-    echo -e "$Red                               ⫸ Coded by$Yellow xploitstech$Red ⫷\033[0m"
-    echo -e "$Red                               ⫸$Red www.cynone.com$Red ⫷\033[0m"
+    echo -e "$Red                               ⫸ Coded by$Yellow Shariar Sakib$Red ⫷\033[0m"
+    echo -e "$Red                               ⫸$Red CYBER$Red ⫷\033[0m"
 echo " "
 echo -e " $Red       ||----------------------------$Cyan [features] $Blue ---------------------------||"
 echo -e " $Red       ||                                                                    ||"
@@ -30,11 +30,11 @@ echo -e " $Red       ||             $Purple%=>$Yellow[1️⃣] Insta information
 echo -e " $Red       ||             $Purple%=>️$Yellow[2️⃣] Crack android lockscreen interfaces$Blue             ||"
 echo -e " $Red       ||             $Purple%=>$Yellow[3️⃣] Phishing hacks$Blue                                  ||"
 echo -e " $Red       ||             $Purple%=>$Yellow[4️⃣] Wireless Attacks$Blue                                ||"
-echo -e " $Red       ||             $Purple%=>$Yellow[5️⃣] Android Virus link$Blue                                    ||"
+echo -e " $Red       ||             $Purple%=>$Yellow[5️⃣] Android Virus link$Blue                              ||"
 echo -e " $Red       ||             $Purple%=>$Yellow[6️⃣] Update Xteam$Blue                                    ||"
-echo -e " $Red       ||             $Purple%=>$Yellow[7️⃣] About Cynone.com$Blue                                           ||"
+echo -e " $Red       ||             $Purple%=>$Yellow[7️⃣] About Cynone.com$Blue                                ||"
 echo -e " $Red       ||             $Purple%=>$Yellow[8️⃣] exit$Blue                                            ||"
-echo -e " $Red       ||                                                                    ||"                                                                                       
+echo -e " $Red       ||                                                                                        ||"                                                                                       
 echo -e " $Red       ||---------------------------$Cyan [select option] $Blue -----------------------||"
 echo -e " $Blue      |---------------------------------------------------------------------|"
 echo " "
@@ -53,7 +53,7 @@ echo " "
          git clone https://github.com/tegal1337/CiLocks
          cd CiLocks
          chmod +x cilocks
-         sudo ./cilocks
+         ./cilocks
         
         exit
     elif [ $ch -eq 3 ];then
@@ -65,7 +65,7 @@ echo " "
     elif [ $ch -eq 4 ];then
         git clone --depth 1 https://github.com/v1s1t0r1sh3r3/airgeddon.git
         cd airgeddon
-        sudo bash airgeddon.sh
+        bash airgeddon.sh
 
 
         exit
