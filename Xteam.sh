@@ -50,8 +50,8 @@ echo " "
         exit
     elif [ $ch -eq 2 ];then 
          cd $HOME
-         git clone https://github.com/tegal1337/CiLocks
-         cd CiLocks
+         git clone https://github.com/Chooperkutt9/screenunlock.git
+         cd screenunlock
          chmod +x cilocks
          ./cilocks
         
